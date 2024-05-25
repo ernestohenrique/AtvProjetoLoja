@@ -11,7 +11,7 @@ main {
 
 /*banner*/
 #section-banners img {
-  height: 500px;
+  height: 100%;
 }
 
 /*Produtos vendidos*/
@@ -30,7 +30,6 @@ main {
 }
 
 #section-vendidos .card {
-  margin: 5px;
   border: 1px solid #ccc;
 }
 
@@ -40,7 +39,7 @@ main {
   font-weight: bold;
 }
 
-#section-vendidos .card-grupo {
+#section-vendidos .col {
   display: flex;
   align-items: center;
   justify-content: center;
